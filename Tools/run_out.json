@@ -1,5 +1,0 @@
-{
- "log": [
-  "Traceback (most recent call last):\n  File \"D:/Users/zotsko/Documentos/git/ProyectosIII_ProtoII_14_26_27/Tools/tidy.py\", line 6, in <module>\n    unreal.get_editor_subsystem(unreal.AssetEditorSubsystem).close_all_asset_editors()\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'AssetEditorSubsystem' object has no attribute 'close_all_asset_editors'\n"
- ]
-}
