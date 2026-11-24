@@ -1,0 +1,101 @@
+{
+ "world": "<Object '/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson' (0x0000022624D34600) Class 'World'>",
+ "BP_PlayerCharacter_C_0": {
+  "class": "BP_PlayerCharacter_C",
+  "loc": "<Struct 'Vector' (0x00000224112B73A0) {x: 0.264444, y: -0.000056, z: 302.727463}>",
+  "CollisionCylinder": {
+   "LeftLeg_err": "CapsuleComponent: Failed to find property 'LeftLeg' for attribute 'LeftLeg' on 'CapsuleComponent'",
+   "RightLeg_err": "CapsuleComponent: Failed to find property 'RightLeg' for attribute 'RightLeg' on 'CapsuleComponent'"
+  },
+  "Arrow": {
+   "LeftLeg_err": "ArrowComponent: Failed to find property 'LeftLeg' for attribute 'LeftLeg' on 'ArrowComponent'",
+   "RightLeg_err": "ArrowComponent: Failed to find property 'RightLeg' for attribute 'RightLeg' on 'ArrowComponent'"
+  },
+  "CharMoveComp": {
+   "LeftLeg_err": "CharacterMovementComponent: Failed to find property 'LeftLeg' for attribute 'LeftLeg' on 'CharacterMovementComponent'",
+   "RightLeg_err": "CharacterMovementComponent: Failed to find property 'RightLeg' for attribute 'RightLeg' on 'CharacterMovementComponent'"
+  },
+  "CharacterMesh0": {
+   "LeftLeg_err": "SkeletalMeshComponent: Failed to find property 'LeftLeg' for attribute 'LeftLeg' on 'SkeletalMeshComponent'",
+   "RightLeg_err": "SkeletalMeshComponent: Failed to find property 'RightLeg' for attribute 'RightLeg' on 'SkeletalMeshComponent'"
+  },
+  "Body": {
+   "LeftLeg_err": "PoseableMeshComponent: Failed to find property 'LeftLeg' for attribute 'LeftLeg' on 'PoseableMeshComponent'",
+   "RightLeg_err": "PoseableMeshComponent: Failed to find property 'RightLeg' for attribute 'RightLeg' on 'PoseableMeshComponent'"
+  },
+  "CameraBoom": {
+   "LeftLeg_err": "SpringArmComponent: Failed to find property 'LeftLeg' for attribute 'LeftLeg' on 'SpringArmComponent'",
+   "RightLeg_err": "SpringArmComponent: Failed to find property 'RightLeg' for attribute 'RightLeg' on 'SpringArmComponent'"
+  },
+  "FollowCamera": {
+   "LeftLeg_err": "CameraComponent: Failed to find property 'LeftLeg' for attribute 'LeftLeg' on 'CameraComponent'",
+   "RightLeg_err": "CameraComponent: Failed to find property 'RightLeg' for attribute 'RightLeg' on 'CameraComponent'"
+  },
+  "CameraProxyMeshComponent_0": {
+   "LeftLeg_err": "CameraProxyMeshComponent: Failed to find property 'LeftLeg' for attribute 'LeftLeg' on 'CameraProxyMeshComponent'",
+   "RightLeg_err": "CameraProxyMeshComponent: Failed to find property 'RightLeg' for attribute 'RightLeg' on 'CameraProxyMeshComponent'"
+  },
+  "DrawFrustumComponent_0": {
+   "LeftLeg_err": "DrawFrustumComponent: Failed to find property 'LeftLeg' for attribute 'LeftLeg' on 'DrawFrustumComponent'",
+   "RightLeg_err": "DrawFrustumComponent: Failed to find property 'RightLeg' for attribute 'RightLeg' on 'DrawFrustumComponent'"
+  },
+  "Legs": {
+   "LeftLeg": "<Object '/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_PlayerCharacter_C_0.Legs.BP_Leg_C_0' (0x00000226CA1B4EC0) Class 'BP_Leg_C'>",
+   "RightLeg": "<Object '/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_PlayerCharacter_C_0.Legs.BP_Leg_C_1' (0x00000226CA1BB540) Class 'BP_Leg_C'>",
+   "InputSource": "<Object '/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_StaggerPlayerController_C_0' (0x0000022620F6AA00) Class 'BP_StaggerPlayerController_C'>",
+   "GroundProbe": "<Object '/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_PlayerCharacter_C_0.GroundProbe' (0x00000226C94A1200) Class 'BPC_RaycastGroundProbe_C'>",
+   "FootIK": "<Object '/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_PlayerCharacter_C_0.FootIK' (0x00000226CA1B4240) Class 'BPC_FootIKSolver_C'>",
+   "Pelvis": "<Object '/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_PlayerCharacter_C_0.Pelvis' (0x0000022648634380) Class 'BPC_PelvisMover_C'>",
+   "Lockers": "[]",
+   "LeftLeg_d": {
+    "FootPosition": "<Struct 'Vector' (0x00000226CA1B4EF0) {x: 0.259731, y: -9.969203, z: 210.000000}>",
+    "State": "<E_LegState.PLANTED: 0>",
+    "bGroundHit": "True",
+    "HipPosition": "<Struct 'Vector' (0x00000226CA1B4F50) {x: 0.524175, y: -9.969259, z: 300.373480}>",
+    "KneePosition": "<Struct 'Vector' (0x00000226CA1B4F68) {x: 12.235655, y: -11.746087, z: 258.682316}>",
+    "AnklePosition": "<Struct 'Vector' (0x00000226CA1B4F80) {x: 0.259731, y: -9.969203, z: 218.237634}>",
+    "Side": "<E_LegSide.LEFT: 0>"
+   },
+   "RightLeg_d": {
+    "FootPosition": "<Struct 'Vector' (0x00000226CA1BB570) {x: 0.269157, y: 9.969091, z: 210.000000}>",
+    "State": "<E_LegState.PLANTED: 0>",
+    "bGroundHit": "True",
+    "HipPosition": "<Struct 'Vector' (0x00000226CA1BB5D0) {x: 0.533601, y: 9.969036, z: 300.374063}>",
+    "KneePosition": "<Struct 'Vector' (0x00000226CA1BB5E8) {x: 12.244092, y: 11.745772, z: 258.682617}>",
+    "AnklePosition": "<Struct 'Vector' (0x00000226CA1BB600) {x: 0.269157, y: 9.969091, z: 218.237634}>",
+    "Side": "<E_LegSide.RIGHT: 1>"
+   }
+  },
+  "Pelvis": {
+   "CenterOfMass": "<Struct 'Vector' (0x00000226486344B8) {x: 0.264444, y: -0.000056, z: 302.727463}>",
+   "FacingYaw": "0.0",
+   "ThighLength": "43.34130859375",
+   "CalfLength": "42.21791458129884",
+   "AnkleHeight": "8.237634413317146",
+   "LeftLeg_err": "ActorComponent: Failed to find property 'LeftLeg' for attribute 'LeftLeg' on 'BPC_PelvisMover_C'",
+   "RightLeg_err": "ActorComponent: Failed to find property 'RightLeg' for attribute 'RightLeg' on 'BPC_PelvisMover_C'"
+  },
+  "GroundProbe": {
+   "LeftLeg_err": "ActorComponent: Failed to find property 'LeftLeg' for attribute 'LeftLeg' on 'BPC_RaycastGroundProbe_C'",
+   "RightLeg_err": "ActorComponent: Failed to find property 'RightLeg' for attribute 'RightLeg' on 'BPC_RaycastGroundProbe_C'"
+  },
+  "FootIK": {
+   "ThighLength": "43.34130859375",
+   "CalfLength": "42.21791458129884",
+   "AnkleHeight": "8.237634413317146",
+   "LeftLeg_err": "ActorComponent: Failed to find property 'LeftLeg' for attribute 'LeftLeg' on 'BPC_FootIKSolver_C'",
+   "RightLeg_err": "ActorComponent: Failed to find property 'RightLeg' for attribute 'RightLeg' on 'BPC_FootIKSolver_C'"
+  },
+  "Animator": {
+   "bReady": "True",
+   "Mesh": "<Object '/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_PlayerCharacter_C_0.Body' (0x0000022660772400) Class 'PoseableMeshComponent'>",
+   "LeftLeg_err": "ActorComponent: Failed to find property 'LeftLeg' for attribute 'LeftLeg' on 'BPC_PlayerAnimatorBridge_C'",
+   "RightLeg_err": "ActorComponent: Failed to find property 'RightLeg' for attribute 'RightLeg' on 'BPC_PlayerAnimatorBridge_C'"
+  },
+  "PawnInputComponent0": {
+   "LeftLeg_err": "EnhancedInputComponent: Failed to find property 'LeftLeg' for attribute 'LeftLeg' on 'EnhancedInputComponent'",
+   "RightLeg_err": "EnhancedInputComponent: Failed to find property 'RightLeg' for attribute 'RightLeg' on 'EnhancedInputComponent'"
+  },
+  "controller": "<Object '/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_StaggerPlayerController_C_0' (0x0000022620F6AA00) Class 'BP_StaggerPlayerController_C'>"
+ }
+}

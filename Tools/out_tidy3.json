@@ -1,0 +1,19 @@
+{
+ "log": [
+  "['add_function_graph', 'find_event_graph', 'find_graph', 'remove_function_graph', 'remove_graph', 'rename_graph']",
+  "Core/Input/BPI_PlayerInput found True",
+  "Core/Input/BPI_PlayerInput after False",
+  "Player/BPI_PlayerTeleport found True",
+  "Player/BPI_PlayerTeleport after False",
+  "Player/Movement/BPI_MovementLock found True",
+  "Player/Movement/BPI_MovementLock after False",
+  "Player/Movement/BPI_SurfaceProvider found True",
+  "Player/Movement/BPI_SurfaceProvider after False",
+  "Player/Movement/BPI_GroundProbe found True",
+  "Player/Movement/BPI_GroundProbe after False",
+  "Player/Movement/BPI_FootIK found True",
+  "Player/Movement/BPI_FootIK after False",
+  "Player/Animation/BPI_PlayerAnimator found True",
+  "Player/Animation/BPI_PlayerAnimator after False"
+ ]
+}
