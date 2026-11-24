@@ -1,0 +1,22 @@
+{
+ "subs": [
+  "/Script/EnhancedInput.Default__EnhancedInputLocalPlayerSubsystem",
+  "/Engine/Transient.UnrealEdEngine_0:LocalPlayer_1.EnhancedInputLocalPlayerSubsystem_0"
+ ],
+ "sub": "<Object '/Engine/Transient.UnrealEdEngine_0:LocalPlayer_1.EnhancedInputLocalPlayerSubsystem_0' (0x000002265D6A8480) Class 'EnhancedInputLocalPlayerSubsystem'>",
+ "methods": [
+  "inject_input_for_action",
+  "inject_input_for_player_mapping",
+  "inject_input_vector_for_action",
+  "inject_input_vector_for_player_mapping",
+  "start_continuous_input_injection_for_action",
+  "start_continuous_input_injection_for_player_mapping",
+  "stop_continuous_input_injection_for_action",
+  "stop_continuous_input_injection_for_player_mapping",
+  "update_value_of_continuous_input_injection_for_action",
+  "update_value_of_continuous_input_injection_for_player_mapping"
+ ],
+ "act": "start",
+ "sig": "x.start_continuous_input_injection_for_action(action, raw_value, modifiers, triggers) -> None\r\nStarts simulation of input via injection. This injects the given input every tick until it is stopped with StopContinuousInputInjectionForAction.\r\n\r\nArgs:\r\n    action (InputAction): The Input Action to set inject input for\r\n    raw_value (InputActionValue): The value to set the action to (the type will be controlled by the Action)\r\n    modifiers (Array[InputModifier]): The modifiers to apply to the injected input.\r\n    triggers (Array[InputTrigger]): The triggers to apply to the injected input.",
+ "err": "Traceback (most recent call last):\n  File \"<string>\", line 21, in V\nAttributeError: type object 'EnhancedInputLibrary' has no attribute 'make_input_action_value_of_type'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"<string>\", line 23, in <module>\n  File \"<string>\", line 22, in V\nAttributeError: type object 'EnhancedInputLibrary' has no attribute 'make_input_action_value'\n"
+}

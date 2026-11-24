@@ -1,0 +1,9 @@
+{
+ "trace": "<Struct 'HitResult' (0x00000225E086A640) {}>",
+ "starts": [
+  "<Struct 'Vector' (0x00000224112B7490) {x: 0.000000, y: 0.000000, z: 302.012643}>"
+ ],
+ "probe": "(False, <Struct 'Vector' (0x00000224112B7490) {x: 0.000000, y: 0.000000, z: 0.000000}>, <Struct 'Vector' (0x00000224112B74E0) {x: 0.000000, y: 0.000000, z: 0.000000}>, <E_SurfaceType.NORMAL: 0>, 0.0, None)",
+ "move_mode": "<MovementMode.MOVE_NONE: 0>",
+ "gravity": "1.0"
+}

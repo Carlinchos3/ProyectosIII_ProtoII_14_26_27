@@ -1,0 +1,15 @@
+Begin Object Class=/Script/InputBlueprintNodes.K2Node_GetInputActionValue Name="K2Node_GetInputActionValue_6"
+   InputAction="/Script/EnhancedInput.InputAction'/Game/Stagger/Core/Input/IA_Pause.IA_Pause'"
+   NodePosX=80
+   NodePosY=200
+   NodeGuid=8A14435E3F75474E83991532FCD63078
+   CustomProperties Pin (PinId=1A797A29256644FDA9B0E78DDDA505B2,PinName="ActionValue",Direction="EGPD_Output",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionResult_33 77FD68F6C14F46979B1686FB5010474D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionResult Name="K2Node_FunctionResult_33"
+   FunctionReference=(MemberName="IsPausePressed")
+   NodePosX=380
+   NodePosY=0
+   NodeGuid=6532BCFD987946EF8DE8414D43E455B7
+   CustomProperties Pin (PinId=FE9EE46AF45A4D278F1B368E39B1C08D,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=77FD68F6C14F46979B1686FB5010474D,PinName="Pressed",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_GetInputActionValue_6 1A797A29256644FDA9B0E78DDDA505B2,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object

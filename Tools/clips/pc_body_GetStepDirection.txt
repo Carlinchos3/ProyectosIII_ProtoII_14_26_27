@@ -1,0 +1,15 @@
+Begin Object Class=/Script/InputBlueprintNodes.K2Node_GetInputActionValue Name="K2Node_GetInputActionValue_2"
+   InputAction="/Script/EnhancedInput.InputAction'/Game/Stagger/Core/Input/IA_StepDirection.IA_StepDirection'"
+   NodePosX=80
+   NodePosY=200
+   NodeGuid=4D955781F54545DFB150ACD002625C5E
+   CustomProperties Pin (PinId=DF52A45ADE5742DABF56F33A382758DE,PinName="ActionValue",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector2D'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionResult_29 FF4F45D5AB2A4D6F81A0EB5C65697EDA,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionResult Name="K2Node_FunctionResult_29"
+   FunctionReference=(MemberName="GetStepDirection")
+   NodePosX=380
+   NodePosY=0
+   NodeGuid=0972A8A8BF704B37898EBC0B143EE325
+   CustomProperties Pin (PinId=BD0497E0E18F41BBB63F3A710C15CED1,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=FF4F45D5AB2A4D6F81A0EB5C65697EDA,PinName="Direction",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector2D'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_GetInputActionValue_2 DF52A45ADE5742DABF56F33A382758DE,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
