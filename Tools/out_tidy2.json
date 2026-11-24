@@ -1,5 +1,0 @@
-{
- "log": [
-  "Traceback (most recent call last):\n  File \"D:/Users/zotsko/Documentos/git/ProyectosIII_ProtoII_14_26_27/Tools/tidy2.py\", line 7, in <module>\n    for a in AES.get_all_edited_assets():\n             ^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'AssetEditorSubsystem' object has no attribute 'get_all_edited_assets'\n"
- ]
-}
